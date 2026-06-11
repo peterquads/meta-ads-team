@@ -22,12 +22,14 @@ is a question in support, it needs an ad.
 The clustering taxonomy and the 13-part persona-doc artifact live in
 `references/voc-buckets.md`. Read it.
 
-## Getting the comments (the MCP has no direct comments tool)
-Go through the post:
-1. `get_ads`, the ad(s) of interest.
-2. `get_ad_creatives`, read `effective_object_story_id` (the published post id, `{page_id}_{post_id}`).
-3. Fetch comments from the Graph API comments edge for that post id, using the same token the MCP authenticated with: `GET /{post_id}/comments?fields=message,like_count,comment_count,created_time,from&limit=200&order=reverse_chronological`. Paginate to a few hundred, pull replies on high-engagement comments, that is where objections get litigated.
-If you cannot reach the comments edge, say so and work from whatever the user pastes in. Never fabricate comments.
+## Getting the comments (the user brings them to you)
+Standard Meta connectors manage campaigns and pull metrics, they do not expose a comments reader, and Claude cannot make raw Graph API calls through a connector. So do not try to fetch comments from the account, ask the user to bring them. Lead with this, do not stall on tooling.
+
+1. **Paste them in (the default).** Ask the user to open the ad's post in Meta Business Suite or on the Page, copy the comments (a few dozen to a few hundred), and paste them here. A rough copy is fine, formatting does not matter.
+2. **Or a file.** They can export comments from Meta Business Suite, the Graph API Explorer (the `/{post-id}/comments` edge), or a comment-export tool, then paste or upload that.
+3. **Only if a tool exists.** If a connected tool in the user's setup actually returns post comments, use it. The common Meta Ads MCP does not have one, so assume paste-in unless you see a comments tool.
+
+If the user has not pasted anything yet, your first move is to ask for the comments and tell them where to grab them. Never fabricate comments.
 
 ## Analyze, themes first
 Sort meaningful comments into the buckets (objections, FAQs, loved features,
