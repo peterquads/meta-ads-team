@@ -1,0 +1,25 @@
+{
+  "name": "meta-ads-team",
+  "displayName": "Meta Ads: AI Agency Team",
+  "description": "Nine specialist skills that turn the Meta Ads MCP into a full performance-marketing team: data analyst, creative analyst, comment analyst, media buyer (launch/scale/pause with approval gates), copywriter, static briefer, video briefer, reporter, and a team lead that routes it all.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Peter Quadrel",
+    "email": "peter@odylicmedia.com"
+  },
+  "homepage": "https://github.com/peterquads/meta-ads-team",
+  "repository": "https://github.com/peterquads/meta-ads-team",
+  "license": "MIT",
+  "keywords": [
+    "meta-ads",
+    "facebook-ads",
+    "instagram-ads",
+    "advertising",
+    "media-buying",
+    "performance-marketing",
+    "creative-strategy",
+    "copywriting",
+    "ugc",
+    "mcp"
+  ]
+}

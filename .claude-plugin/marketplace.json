@@ -1,0 +1,21 @@
+{
+  "name": "odylic-media",
+  "owner": {
+    "name": "Peter Quadrel",
+    "email": "peter@odylicmedia.com"
+  },
+  "description": "Free Claude Code plugins from Odylic Media. Practical AI tooling for performance marketers.",
+  "plugins": [
+    {
+      "name": "meta-ads-team",
+      "source": "./plugins/meta-ads-team",
+      "description": "An AI Meta Ads agency team, 9 skills that analyze, buy, write, brief, and report on Meta/Facebook and Instagram ads via the Meta Ads MCP.",
+      "version": "1.1.0",
+      "author": { "name": "Peter Quadrel" },
+      "homepage": "https://github.com/peterquads/meta-ads-team",
+      "license": "MIT",
+      "category": "marketing",
+      "keywords": ["meta-ads", "facebook-ads", "media-buying", "creative", "copywriting", "ugc"]
+    }
+  ]
+}
