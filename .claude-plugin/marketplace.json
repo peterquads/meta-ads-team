@@ -29,8 +29,8 @@
     {
       "name": "odylic-cascade",
       "source": {
-        "source": "github",
-        "repo": "peterquads/odylic-cascade"
+        "source": "url",
+        "url": "https://github.com/peterquads/odylic-cascade.git"
       },
       "description": "One table of every persona, angle and format combination in a Meta ad account, split by Meta's customer segments, with what to do more of and what to test next. Reads your naming conventions first. Read only.",
       "version": "1.0.1",
