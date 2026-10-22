@@ -11,11 +11,44 @@
       "source": "./plugins/meta-ads-team",
       "description": "An AI Meta Ads agency team, 9 skills that analyze, buy, write, brief, and report on Meta/Facebook and Instagram ads via the Meta Ads MCP.",
       "version": "1.1.1",
-      "author": { "name": "Peter Quadrel" },
+      "author": {
+        "name": "Peter Quadrel"
+      },
       "homepage": "https://github.com/peterquads/meta-ads-team",
       "license": "MIT",
       "category": "marketing",
-      "keywords": ["meta-ads", "facebook-ads", "media-buying", "creative", "copywriting", "ugc"]
+      "keywords": [
+        "meta-ads",
+        "facebook-ads",
+        "media-buying",
+        "creative",
+        "copywriting",
+        "ugc"
+      ]
+    },
+    {
+      "name": "odylic-cascade",
+      "source": {
+        "source": "github",
+        "repo": "peterquads/odylic-cascade"
+      },
+      "description": "One table of every persona, angle and format combination in a Meta ad account, split by Meta's customer segments, with what to do more of and what to test next. Reads your naming conventions first. Read only.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Peter Quadrel"
+      },
+      "homepage": "https://github.com/peterquads/odylic-cascade",
+      "license": "MIT",
+      "category": "marketing",
+      "keywords": [
+        "meta-ads",
+        "facebook-ads",
+        "creative-strategy",
+        "gap-analysis",
+        "personas",
+        "angles",
+        "creative-testing"
+      ]
     }
   ]
 }

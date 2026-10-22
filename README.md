@@ -43,3 +43,12 @@ your yes. Nothing happens to your account without approval.
 ## Under the hood
 The frameworks come from how Odylic Media actually runs accounts, credited in
 [SOURCES.md](SOURCES.md). Built on the open-source [Meta Ads MCP](https://github.com/pipeboard-co/meta-ads-mcp). MIT licensed.
+
+## Also in this marketplace: Odylic Cascade
+One table of every persona, angle and format combination in your Meta ad account, split by Meta's
+customer segments, with what to do more of and what to test next. Read only.
+```
+/plugin marketplace add peterquads/meta-ads-team
+/plugin install odylic-cascade@odylic-media
+```
+Details and the claude.ai version: [github.com/peterquads/odylic-cascade](https://github.com/peterquads/odylic-cascade).
