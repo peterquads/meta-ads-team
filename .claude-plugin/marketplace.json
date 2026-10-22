@@ -33,7 +33,7 @@
         "repo": "peterquads/odylic-cascade"
       },
       "description": "One table of every persona, angle and format combination in a Meta ad account, split by Meta's customer segments, with what to do more of and what to test next. Reads your naming conventions first. Read only.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Peter Quadrel"
       },
